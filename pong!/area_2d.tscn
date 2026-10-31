@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dun31kx8n6k7t"]
+
+[ext_resource type="Script" uid="uid://bfr51up5ps5o0" path="res://area_2d.gd" id="1_dl81w"]
+[ext_resource type="Texture2D" uid="uid://bwespoymjfkxd" path="res://小魷.png" id="1_gf172"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_orkpo"]
+radius = 36.0
+
+[node name="Area2D" type="Area2D" unique_id=1255604164]
+script = ExtResource("1_dl81w")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=149119443]
+shape = SubResource("CircleShape2D_orkpo")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1864572853]
+scale = Vector2(0.26148412, 0.2614841)
+texture = ExtResource("1_gf172")

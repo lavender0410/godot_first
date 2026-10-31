@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://bc6he8agd7fk"]
+
+[ext_resource type="Script" uid="uid://cs0bratsdqb1q" path="res://分數場景/label.gd" id="1_wfb7a"]
+[ext_resource type="Script" uid="uid://djcw48koquex6" path="res://分數場景/label_2.gd" id="2_xjm78"]
+
+[node name="Node" type="Node" unique_id=1897099089]
+metadata/_edit_horizontal_guides_ = [80.0]
+
+[node name="Label" type="Label" parent="." unique_id=1788190278]
+offset_left = 223.0
+offset_top = 70.0
+offset_right = 263.0
+offset_bottom = 93.0
+script = ExtResource("1_wfb7a")
+
+[node name="Label2" type="Label" parent="." unique_id=2082111453]
+anchors_preset = -1
+anchor_right = 0.035
+anchor_bottom = 0.035
+offset_left = 942.0
+offset_top = 70.0
+offset_right = 941.68
+offset_bottom = 70.32
+script = ExtResource("2_xjm78")

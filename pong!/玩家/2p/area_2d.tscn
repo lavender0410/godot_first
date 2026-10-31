@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://cuchigurobxmc"]
+
+[ext_resource type="Script" uid="uid://bhb8uo4f0t0dy" path="res://玩家/2p/area_2d.gd" id="1_oxk5w"]
+[ext_resource type="Texture2D" uid="uid://daeuf8lh07qo1" path="res://sisi - 複製.png" id="2_2pqy2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rpfh2"]
+size = Vector2(95, 128)
+
+[node name="Area2D" type="Area2D" unique_id=542942041]
+position = Vector2(972, 119)
+script = ExtResource("1_oxk5w")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=732482083]
+position = Vector2(2, 1)
+scale = Vector2(0.06748257, 0.06748257)
+texture = ExtResource("2_2pqy2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=384782323]
+position = Vector2(2, -3)
+shape = SubResource("RectangleShape2D_rpfh2")

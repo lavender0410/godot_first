@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dlhsemqx1702d"]
+
+[node name="Node" type="Node" unique_id=1356492990]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1962893265]
+offset_right = 1172.9319
+offset_bottom = 673.7196
+scale = Vector2(0.980449, 0.9677616)
+color = Color(0, 0, 0, 1)
+
+[node name="Line2D" type="Line2D" parent="." unique_id=841631695]
+position = Vector2(45, 0)
+points = PackedVector2Array(549, 2, 549, 647)
+width = 5.0
